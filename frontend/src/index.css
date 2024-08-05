@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button, [role="button"] {
+  cursor: pointer;
+  width: -webkit-fill-available;
+}
+*{
+  margin: 1px;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ---------------------------------navbar.js CSS ----------------------- */
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.items ul{
+  display: flex;
+  gap: 1rem;
+}
+.search{
+  display: flex;
+}
+.right{
+  display: flex;
+  gap: 5px;
+}
+
+
+/* --------------------------------------className="Body"  CSS------------------------------- */
+.body{
+  height: auto;
+  margin-top: 2rem;
+   
+}
+.body h1{
+  text-align: center;
+}
+
+
+/* -------------------------------------HomePage.css------------------------------ */
+.Homebody{
+  height: auto;
+  margin-top: 2rem;
+  background-color: aqua;
+
+}
+.Homebody h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: 600;
+}
+.Homebody h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+
+
+ 
+/*---------------------------------------Footer.js CSS ------------------------------------ */
+.footer{
+  height: 60vh;
+  background-color: azure;
+  margin-top: 2rem;
+}
+.upperfooter{
+  height: 40vh;
+   
+}
+.lowerfooter{
+  height: 20vh;
+  text-align: center;
+  margin: inherit;
+   
+}
+
+/* ======================className="content"==================== */
+.content{
+  display: flex;
+}
+.leftcont{
+  flex-basis: 20%;
+  background-color:white;
+  /* overflow: scroll;
+  scrollbar-color: blue;
+  scrollbar-width: thin; */
+}
+.centercont{
+   flex-basis: 60%;
+  background-color: aqua;
+  padding: 5px 10px 5px 20px;
+}
+.centercont h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.centercont p{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.rightcont{
+   flex-basis: 20%;
+  background-color: bisque;
+}
+.cont-index ul{
+  display: flex;
+  justify-content: space-around;
+}
+.leftcont ul li{
+  border-bottom: 1px solid black;
+  background-color: azure;
+  height: 2.5rem;
+  padding: 4px 2px 4px 3px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+}
+.btn1{
+  background-color: black;
+  color: white;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 20%;
+}
+
+/* --------------------------CSS FOR POST ---------------------------------- */
+.post{
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.post input {
+  display: inline-block;
+  border: 1px solid red;
+  height: 3rem;
+  padding: 1rem;
+}
+form {
+  display: inline-grid;
+  gap: 2rem;
+  width: 80%;
+  
+}
+form textarea{
+  height: 20rem;
+  border: 1px solid blue;
+  padding: 1rem 1rem  ;
+}
+
+
+/* =========================Homepage ki CSS ========================== */
+.twooptions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.firstfield {
+  font-size: 1.9rem;
+}
+.firstfield input {
+  height: 5rem;
+  width: 40rem;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+.firstfield input::placeholder{
+  font-weight: 100;
+  opacity: 0.3;
+}
+
+
+
+
+
+/* -----------------------------------cards css------------------------- */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem;
+}
+.card1{
+  padding: 0.1rem;
+  border: 0.2px solid white; 
+  border-radius: 0.5rem;
+  height: auto;
+  width: 18rem;
+  background-color: aliceblue;
+   
+
+}
+
+.card1 img {
+  height: 11rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+.card1 .p1 {
+  text-align: left;
+  font-size: 0.8rem;
+  margin-top: 0.6rem;
+}
+.card1 .p2 {
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: 300;
+}
+.carddown {
+  background-color: rgb(243, 232, 232);
+  margin-bottom: 0.3rem;
+  padding: 0.3rem;
+}
+.carddown .p3 {
+  text-align: left;
+  font-size: 0.9rem;
+  
+}
+.carddown .p4 {
+  text-align: center;
+  font-size: 0.9rem;
+  border: 1px solid blue;
+  padding: 0.3rem;
+  font-weight: 700;
+  border-radius: 0.9rem;
+  margin-top: 0.3rem;
+}
