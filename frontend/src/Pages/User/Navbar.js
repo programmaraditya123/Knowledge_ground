@@ -7,7 +7,10 @@ const Navbar = () => {
       <div className="Navbar">
         <div className="items">
           <ul>
-            <Link to="/"><li>Home</li></Link>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/courses">Courses</Link>
+            {/* <Link to="/"><li>Dashboard</li></Link> */}
+            {/* <Link to="/"><li>Home</li></Link>
             <Link to="/dsa"><li>DSA</li></Link>
             <Link to="/math"><li>MAth</li></Link>
             <Link to="/operatingsystem"><li>Operating System</li></Link>
@@ -18,7 +21,7 @@ const Navbar = () => {
             <li>Flask</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>SSC</li>
+            <li>SSC</li> */}
           </ul>
         </div>
 
