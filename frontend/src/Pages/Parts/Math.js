@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import Navbar1 from "../User/Navbar1";
 
 const Math = () => {
   const [parenttopic, setParenttopic] = useState();
@@ -61,7 +62,8 @@ const Math = () => {
   return (
     <div className="body">
       <div className="cont-index">
-        <ul>
+        <Navbar1/>
+        {/* <ul>
           {cont?.map((c) => (
             <div key={c._id}>
               <Link>
@@ -69,10 +71,11 @@ const Math = () => {
               </Link>
             </div>
           ))}
-        </ul>
+        </ul> */}
       </div>
       <div className="content">
         <div className="leftcont">
+        <img src="" alt="This math logo"/>
           <ul>
             {cont?.map((c) => (
               <div key={c._id}>

@@ -6,15 +6,20 @@ button, [role="button"] {
   cursor: pointer;
   width: -webkit-fill-available;
 }
-*{
-  margin: 1px;
+element.style {
+  font-size: 3rem;
+}
+* {
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
-} 
+}
 /* ---------------------------------navbar.js CSS ----------------------- */
-.Navbar{
+.Navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .items ul{
   display: flex;
@@ -27,6 +32,109 @@ button, [role="button"] {
   display: flex;
   gap: 5px;
 }
+.srch {
+  width: 20rem;
+  outline-color: black;
+  border-radius: 2rem;
+  background-color: aliceblue;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+}
+.cat{
+  
+  position: relative;
+  display: inline-block;
+  
+}
+.cate{
+  display: none; 
+  position: absolute;
+  width: 35rem;
+  height: 30rem;
+  z-index: 1;
+  background-color: white;
+  padding: 0.1rem;
+  margin-top: 0rem;
+  border: 2px solid black;
+  
+  border-radius: 2rem;
+}
+.cat:hover .cate{
+  display: block;
+   
+}
+.cat-cont{
+  display: flex;
+   
+} 
+ 
+ 
+.cat-cont-left ul{ 
+  
+  display: inline-block;
+  border-right: 4px solid black;
+  padding-right: 0.4rem;
+   
+} 
+.cat-cont-left ul li {
+  margin: 1rem 0rem 1rem 0.1rem;
+  background-color: cornsilk;
+  padding: 0.2rem;
+  border-radius: 2rem;
+  text-align: center;
+} 
+.cat-cont-right{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap;  */
+  padding: 1rem;
+  width: 6rem;
+  gap: 2rem;
+   
+}
+
+.cat-cont-right .ul1 ul li {
+  flex: 1 1 25%;
+  margin-top: 0.9rem;
+  height: auto;
+  width: auto;
+  /* display: inline-block;  */
+  padding: 0.9rem;
+  border: 1px solid rgb(28, 25, 25);
+  text-align: center;
+  border-radius: 1.2rem;
+} 
+.cat-cont-right .ul1 ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.cat-cont-right{
+  position: relative;
+  display: inline-block;
+}
+.show1 , .show2, .show3, .show4, .show5, .show6, .show7, .show8, .show9{
+  display: none;
+}
+
+/* .show1{
+  display: none;
+}
+.cat-cont:hover .show1{
+   display: block;
+} */
+ 
+
+/* .show1{
+  display: block;
+} */
+/* .cate-cont-left ul li:hover .show1{
+  display: block;
+  background-color: red;
+}
+.cate-cont-left:hover .show2{
+  display: block;
+} */
 
 
 /* --------------------------------------className="Body"  CSS------------------------------- */
@@ -64,36 +172,181 @@ button, [role="button"] {
  
 /*---------------------------------------Footer.js CSS ------------------------------------ */
 .footer{
-  height: 60vh;
+  height: auto;
   background-color: azure;
   margin-top: 2rem;
 }
 .upperfooter{
-  height: 40vh;
+  height: auto;
+  display: flex;
+  background-image: url('../src/images/182428240217.jpg');
    
 }
+.rightfooter{
+  flex-basis: 35%;
+  /* background-color: black; */
+  color: white;
+  padding: 4rem;
+}
+.rightfooter1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.rightfooter2 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+.rightfooter h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.rightfooter31 ul li{
+  list-style: none;
+}
+.rightfooter31 ul li::before{
+   content: ">";
+   font-size: 1.5rem;
+}
+.rightfooter32 ul li{
+  list-style: none;
+}
+.rightfooter32 ul li::before{
+   content: ">";
+    
+   font-size: 1.5rem;
+}
+.rightfooter3{
+  display: flex;
+  gap: 7rem;
+   
+}
+.rightfooter4 {
+  display: -webkit-box;
+  font-size: 1.2rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.rightfooter5 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.rightfooter6{
+  display: flex;
+  gap: 6rem;
+  margin-top: 3rem;
+  
+}
+.logo{
+  font-size: 2rem;
+  margin:0.5rem;
+}
+.bt1 {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 0.9;
+  padding: 0.2rem;
+}
+.btn1 {
+  font-size: 2rem;
+}
+.leftfooter{
+  flex-basis: 65%;
+  /* background-image: url('../src/images/182428240217.jpg'); */
+  padding: 2rem;
+}
+.leftfooter1{
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 1.3rem;
+  color: white;
+}
+ 
+.leftfooter h1 {
+  font-size: 1rem;
+  color: white;
+  padding: 0.3rem;
+}
+.leftfooter li {
+  font-size: 0.8rem;
+  list-style: ">";
+  color: white;
+  padding: 0.1rem;
+}
+.leftfooter li:hover{
+  color: yellow ;
+}
+.leftfooter p:hover{
+  color: blue
+};
+.leftfooter li::before {
+  content: ">";
+  color: white;
+}
+.leftfooter2{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.leftfooter3{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.leftfooter4{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
 .lowerfooter{
-  height: 20vh;
+  height: 10vh;
   text-align: center;
   margin: inherit;
    
 }
 
+
+
 /* ======================className="content"==================== */
-.content{
+.content {
   display: flex;
+  gap: 0.5rem;
+  justify-content: space-around;
+  padding: 0.2rem;
+  max-height: 60rem;
 }
-.leftcont{
+.leftcont {
   flex-basis: 20%;
-  background-color:white;
-   overflow: scroll;
-  scrollbar-color: blue;
-  scrollbar-width: thin; 
+  background-color: white;
+  overflow-y: scroll;
+  
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  position: sticky;
 }
-.centercont{
-   flex-basis: 60%;
+.leftcont img{
+  height: 8rem;
+  width: auto;
+  border: 2px solid black;
+  background-color: green;
+}
+.centercont {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  flex-basis: 60%;
+   
   background-color: aqua;
   padding: 5px 10px 5px 20px;
+}
+.centercont::-webkit-scrollbar {
+  display: none;
 }
 .centercont h2{
   font-size: 2rem;
@@ -111,11 +364,22 @@ button, [role="button"] {
   display: flex;
   justify-content: space-around;
 }
-.leftcont ul li{
+.leftcont ul li {
   border-bottom: 1px solid black;
   background-color: azure;
   height: 2.5rem;
   padding: 4px 2px 4px 3px;
+  text-align: left;
+  transition: 0.10s;
+}
+.leftcont ul li:hover {
+  border-bottom: 1px solid black;
+  background-color:white;
+  /* border: 1px solid black; */
+   /* border-radius: 2rem;  */
+  height: 2.5rem;
+  padding: 4px 2px 4px 3px;
+  text-align: left;
 }
 
 .btn{
@@ -184,6 +448,33 @@ form textarea{
   background-image:url('../src/images/bg1.jpg');
   height: 50vh;
  }
+ .profile img {
+  height: 3.3rem;
+  width: 3.3rem;
+  border-radius: 50%;
+}
+.profile{
+  position: relative;
+  display: inline-block;
+}
+.profile-cont {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  width: 13rem;
+  
+  padding: 0.2rem;
+  z-index: 1;
+  font-size: 1.2rem;
+  /* margin-top: 1rem; */
+}
+ 
+.profile:hover .profile-cont{
+  display: block;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+
+}
  .items1 ul {
   display: flex;
   justify-content: space-around;
@@ -268,24 +559,32 @@ form textarea{
 /* --------------------------Public dashboard css ---------------------------------------------------- */
 .board {
   display: flex;
-  height: 150vh;
-  width: 30%;
-  padding: 0.5rem;
-  margin-top: 2rem;
+  height: auto;
+  width: auto;
+  
+  margin-top: 1.5rem;
+  border: 2px solid black;
+  border-radius: 2rem; 
 }
 .rightboard{
   display: flex;
+  flex-basis: 20%;
   flex-direction: column;
   justify-content: space-between;
+  padding: 1.2rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+   
+   
 }
 .dashitems h1 {
   display: ruby;
   margin-bottom: 2rem;
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 .dashitems li {
-  height: 3rem;
+  height: 4rem;
   display: ruby-text;
   font-size: 1.3rem;
   font-weight: 500;
@@ -293,14 +592,16 @@ form textarea{
 .dashitems ul li:hover{
   background-color: #f2f2f2;
 }
-.dashitems ul{
-  margin-top: 2rem;
+.dashitems ul {
+  margin-top: 3rem;
+  padding: 1rem;
 }
 .dashitems p{
   opacity: 0.5;
 }
 .downpart{
    float: inline-end;
+   margin-top: 9rem;
 }
 .downpart{
   background-color: grey;
@@ -314,6 +615,25 @@ form textarea{
   margin: 1rem;
   font-size: 3rem;
 } 
+.mainboard{
+  display: flex;
+  /* border: 2px solid black; */
+  border-radius: 2rem;
+  width: 82%;
+
+}
+.mainboardrt{
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: 2rem;
+  flex-basis: 70% ;
+}
+.mainboardlt{
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: 2rem;
+  flex-basis: 30%;
+}
 
 /* ---------------------------small cards css -------------------------- */
 .startlr .p0{
@@ -324,26 +644,19 @@ form textarea{
   padding: 5%;
   
 }
-.smcrds {
-  display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
-  border-radius: 1rem;
-  padding: 2rem;
-  gap: 2rem;
-  background-color: black;
-  margin-top: 2rem;
-}
+
 .smcrd1 {
-  padding: 0.2rem;
   border: 1px solid black;
-  
   margin-bottom: 1rem;
   border-radius: 0.9rem;
-  width: 20rem;
+  width: 17rem;
   height: 6rem;
   font-size: 1.5rem;
   padding: 0.6rem;
+}
+.smcrds{
+  background-color: black;
+  padding: 1.2rem;
 }
 .c0{
   background-color: rosybrown;
@@ -444,6 +757,7 @@ form textarea{
 }
 .alltech11 {
   display: flex;
+  flex-direction: column;
   border: 2px solid black;
   padding: 2rem;
   border-radius: 2rem;
@@ -463,17 +777,44 @@ form textarea{
   border-radius: 2rem;
   gap: 1rem;
   background-color: aliceblue;
+  box-shadow: -10px 10px;
+  height: 29rem;
 }
-.smcrds1{
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1.2rem;
-
+.smcrds1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.2rem;
 }
 .p9{
   font-size: 2rem;
   font-weight: 600;
 }
  
+
+
+
+/* ================================navbar2.css =================================== */
+.navbar2{
+  background-color: black;
+  color: white;
+  padding: 0.6rem 0rem 0.6rem 0rem;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+  position: sticky;
+}
+.navbar2 h3{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.slick-prev:before {
+  content: '←';
+  font-size: 1.5rem;
+  background-color:black;
+}
+.slick-next:before {
+  background-color: black;
+  font-size: 1.5rem;
+  content: '→';
+}

@@ -102,14 +102,17 @@ const Homepage = () => {
         <p className="p0" style={{ marginTop: "2rem" }}>
           Learn Future <span style={{color:"green"}}>Skills With us</span>
         </p>
+
         <div className="alltech">
           <div className="alltech1">
-            <div className="alltech11" style={{ flexDirection: "column" }}>
+            {/* <div className="alltech11" style={{ flexDirection: "column",display:"flex" }}> */}
+            <div className="alltech11">   
               <p className="p9">Web Technologies</p>
               <div
                 className="smcrds1"
-                style={{ display: "flex", flexWrap: "wrap" }}
+                // style={{ display: "flex", flexWrap: "wrap" }}
               >
+                <div className="smcrds11">
                 <div className="smcrd1 c7" style={{ border: "1px solid red" }}>
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -122,6 +125,8 @@ const Homepage = () => {
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
                 </div>
+                </div>
+                <div className="smcrds12">
                 <div className="smcrd1 c7">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -133,16 +138,21 @@ const Homepage = () => {
                 <div className="smcrd1 c9">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
+                </div>
                 </div>
               </div>
             </div>
 
+
+
+
             <div className="alltech11" style={{ flexDirection: "column" }}>
               <p className="p9">Web Technologies</p>
-              <div
+               <div
                 className="smcrds1"
-                style={{ display: "flex", flexWrap: "wrap" }}
+                // style={{ display: "flex", flexWrap: "wrap" }}
               >
+                <div className="smcrds11">
                 <div className="smcrd1 c7" style={{ border: "1px solid red" }}>
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -155,6 +165,8 @@ const Homepage = () => {
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
                 </div>
+                </div>
+                <div className="smcrds12">
                 <div className="smcrd1 c7">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -166,6 +178,7 @@ const Homepage = () => {
                 <div className="smcrd1 c9">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
+                </div>
                 </div>
               </div>
             </div>
@@ -176,8 +189,9 @@ const Homepage = () => {
               <p className="p9">Web Technologies</p>
               <div
                 className="smcrds1"
-                style={{ display: "flex", flexWrap: "wrap" }}
+                // style={{ display: "flex", flexWrap: "wrap" }}
               >
+                <div className="smcrds11">
                 <div className="smcrd1 c7" style={{ border: "1px solid red" }}>
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -190,6 +204,8 @@ const Homepage = () => {
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
                 </div>
+                </div>
+                <div className="smcrds12">
                 <div className="smcrd1 c7">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -201,6 +217,7 @@ const Homepage = () => {
                 <div className="smcrd1 c9">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
+                </div>
                 </div>
               </div>
             </div>
@@ -212,8 +229,9 @@ const Homepage = () => {
               <p className="p9">Web Technologies</p>
               <div
                 className="smcrds1"
-                style={{ display: "flex", flexWrap: "wrap" }}
+                // style={{ display: "flex", flexWrap: "wrap" }}
               >
+                <div className="smcrds11">
                 <div className="smcrd1 c7" style={{ border: "1px solid red" }}>
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -226,6 +244,8 @@ const Homepage = () => {
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
                 </div>
+                </div>
+                <div className="smcrds12">
                 <div className="smcrd1 c7">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -237,6 +257,7 @@ const Homepage = () => {
                 <div className="smcrd1 c9">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
+                </div>
                 </div>
               </div>
             </div>
@@ -250,8 +271,9 @@ const Homepage = () => {
               <p className="p9">Web Technologies</p>
               <div
                 className="smcrds1"
-                style={{ display: "flex", flexWrap: "wrap" }}
+                // style={{ display: "flex", flexWrap: "wrap" }}
               >
+                <div className="smcrds11">
                 <div className="smcrd1 c7" style={{ border: "1px solid red" }}>
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -264,6 +286,8 @@ const Homepage = () => {
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
                 </div>
+                </div>
+                <div className="smcrds12">
                 <div className="smcrd1 c7">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -275,6 +299,7 @@ const Homepage = () => {
                 <div className="smcrd1 c9">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
+                </div>
                 </div>
               </div>
             </div>
@@ -285,8 +310,9 @@ const Homepage = () => {
               <p className="p9">Web Technologies</p>
               <div
                 className="smcrds1"
-                style={{ display: "flex", flexWrap: "wrap" }}
+                // style={{ display: "flex", flexWrap: "wrap" }}
               >
+                <div className="smcrds11">
                 <div className="smcrd1 c7" style={{ border: "1px solid red" }}>
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -299,6 +325,8 @@ const Homepage = () => {
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
                 </div>
+                </div>
+                <div className="smcrds12">
                 <div className="smcrd1 c7">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
@@ -310,6 +338,7 @@ const Homepage = () => {
                 <div className="smcrd1 c9">
                   <p className="p1">Start Learning</p>
                   <p className="p2">Python</p>
+                </div>
                 </div>
               </div>
             </div>
@@ -326,7 +355,7 @@ const Homepage = () => {
         <input type='text' placeholder='Enter what you are preparing now'/>
       </div>
      </div> */}
-      <h2>Start Learning</h2>
+      {/* <h2>Start Learning</h2>
       <div className="cards">
         <div className="card1">
           <img src="" alt="courseimg" />
@@ -364,7 +393,7 @@ const Homepage = () => {
             <p className="p4">Explore</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <hr />
     </div>
   );

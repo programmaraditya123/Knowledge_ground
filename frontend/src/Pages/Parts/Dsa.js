@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import Navbar1 from "../User/Navbar1";
 
 const Dsa = () => {
   const [parenttopic, setParenttopic] = useState();
@@ -65,7 +66,8 @@ const Dsa = () => {
   return (
     <div className="body">
       <div className="cont-index">
-        <ul>
+        <Navbar1/>
+        {/* <ul>
           {cont?.map((c) => (
             <div key={c._id}>
               <Link>
@@ -73,10 +75,11 @@ const Dsa = () => {
               </Link>
             </div>
           ))}
-        </ul>
+        </ul> */}
       </div>
       <div className="content">
         <div className="leftcont">
+        <img src="" alt="This dsa logo "/>
           <ul>
             {cont?.map((c) => (
               <div key={c._id}>
